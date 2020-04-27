@@ -1,8 +1,17 @@
-$bg : dodgerblue;
-$fg : pink;
+$bg-nav : #333399;
+$bg-art : white;
+$fg-nav : #00ff00;
+$font-stack: sans-serif;
+$btn-buy: orangered;
+$btn-details: dodgerblue;
+$btn-shadow: grey;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $font-stack;
+}
+a {
+  text-decoration: none;
 }
